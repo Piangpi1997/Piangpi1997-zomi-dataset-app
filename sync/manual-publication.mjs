@@ -95,6 +95,8 @@ export async function decidePublication({ pool, user, requestId, approve, review
     if (approve) {
       const trusted = await loadReview(client, row.dataset_id, row.id);
       reviewGuard(trusted);
+      if (trusted.request_id !== row.id || trusted.snapshot_sha256 !== row.snapshot_sha256)
+        throw new Error("Review is not bound to the requested immutable snapshot");
       if (row.stage === "training-manifest" || row.stage === "evaluation") {
         if (trusted.training_approved !== true) throw new Error("Training gate is not approved");
       }
