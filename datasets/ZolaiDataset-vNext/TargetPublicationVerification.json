@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED_TARGET_PUBLICATION_AND_CANDIDATE_BUILD",
+  "repository": "Piangpi1997/Piangpi1997-zomi-dataset-app",
+  "tested_commit": "070a8771e542be274d0567ceae96e436db3b29ef",
+  "run_id": 38245508223,
+  "run_url": "https://github.com/Piangpi1997/Piangpi1997-zomi-dataset-app/actions/runs/38245508223",
+  "job_id": 114798242485,
+  "conclusion": "success",
+  "pipeline_unit_tests": 6,
+  "serialized_rows_verified": 361348,
+  "quarantine_rows_verified": 2053,
+  "split_counts": {
+    "train": 292416,
+    "validation": 34558,
+    "test": 34374
+  },
+  "training_enabled": false,
+  "approved_training_rows": 0,
+  "artifact": {
+    "id": 11745036455,
+    "name": "ZolaiDataset-vNext-candidate",
+    "size_in_bytes": 59777944,
+    "url": "https://api.github.com/repos/Piangpi1997/Piangpi1997-zomi-dataset-app/actions/artifacts/11745036455",
+    "archive_download_url": "https://api.github.com/repos/Piangpi1997/Piangpi1997-zomi-dataset-app/actions/artifacts/11745036455/zip",
+    "expired": false,
+    "created_at": "2026-10-12T11:54:09Z",
+    "expires_at": "2026-11-11T11:54:06Z",
+    "updated_at": "2026-10-12T11:54:09Z",
+    "digest": "sha256:336f0dc7c9cf3c6a6a769214bcfa0b91190ee1c8e2de424fe617b2208678694a",
+    "workflow_run": {
+      "id": 38245508223,
+      "repository_id": 1354336341,
+      "head_repository_id": 1354336341,
+      "head_branch": "main",
+      "head_sha": "070a8771e542be274d0567ceae96e436db3b29ef"
+    }
+  },
+  "limitations": [
+    "Automated structural verification is not native Tedim correctness review.",
+    "No model training was run.",
+    "Original historical audit claims and upstream permission assertions remain scoped as documented.",
+    "Only documentation changes follow the tested build commit."
+  ]
+}
