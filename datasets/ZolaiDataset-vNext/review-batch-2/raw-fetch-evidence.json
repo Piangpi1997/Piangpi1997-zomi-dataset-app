@@ -1,0 +1,366 @@
+{
+  "source": "zomi-language-corpora/raw-text-corpus",
+  "revision": "b03bb5552f3d272269bd78566747cdc874e992b5",
+  "files": [
+    {
+      "file": "files/ZOMI_BOOK_20260428152843_UNKNOWN_3fa32ac3__tmp_gradio_9a3256aa569eef543ac36cc17e48d22483d21239fccdad73303dc0cc022f1d86_test-zomi-sentence.txt.txt",
+      "bytes": 16,
+      "sha256": "3fa32ac3b39fe0dc6314d30d40db0790714ff9acc35dee15551ea93df0508098",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260428153447_UNKNOWN_a948904f__tmp_gradio_c584938623852c5097af3aa7d6d710a12df35d4bb136e1dd63b4dec07c9ab09d_test.txt.txt",
+      "bytes": 12,
+      "sha256": "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260428154524_UNKNOWN_8a836722_genesis.txt.txt",
+      "bytes": 193,
+      "sha256": "8a836722fe1812cc7473c5d6e8254ef2de0cd5a9a1eeef7bcdd7a29e2d520c1f",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260428155138_UNKNOWN_edcb2d60_train_genesis.txt.txt",
+      "bytes": 263,
+      "sha256": "edcb2d60135a292636cbe87d8beefd3b282451cee32843a2cea5e55c370c334f",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260428160606_UNKNOWN_1452d33c_genesis3.txt.txt",
+      "bytes": 4092,
+      "sha256": "1452d33c1bc5bef2d9be8884ad8558bd71866b22da0cd902137d009ecaf041fe",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260428160829_UNKNOWN_ec8d544d_train_genesis4.txt.txt",
+      "bytes": 203,
+      "sha256": "ec8d544da37344171624dc3cf20540025df6224b0e2791f9f448787627a0978f",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260428161141_UNKNOWN_a05b398d_train_genesis5.txt.txt",
+      "bytes": 331,
+      "sha256": "a05b398d9c4d850cff36892402e373e69ac46bda991235490b195fc8d48af285",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429003601_UNKNOWN_19d2cfbf_train_tmp61hq4huq.txt.txt",
+      "bytes": 39,
+      "sha256": "19d2cfbfe86182fb410937e7290e9de301cc264a383a0eeb8eed5152995fc626",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429004336_UNKNOWN_8c113df2_train_tmpskylxzlz.txt.txt",
+      "bytes": 40,
+      "sha256": "8c113df2de118b91462a32cad16f10e3131e00f35711772de86065b1428a8c73",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429011148_UNKNOWN_5877e003_train_tmpt97hsgj0.txt.txt",
+      "bytes": 35,
+      "sha256": "5877e003bda6b22b723e69013dd66622c36790bfc18da7ce99492eea525c071c",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429011246_UNKNOWN_d4925f12_train_tmpxs18r6b5.txt.txt",
+      "bytes": 31,
+      "sha256": "d4925f122389602b05fdbdac070bb8c27763d22bb2949cd569af2e0a26a7d2a8",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429013102_UNKNOWN_e8e91e68_train_tmp12spzy8j.txt.txt",
+      "bytes": 35,
+      "sha256": "e8e91e688bf274a5136a582f55ea9fb93642ca043070ca9edc055fc21b601935",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429013952_UNKNOWN_45987ab0_train_tmp4skohx32.txt.txt",
+      "bytes": 39,
+      "sha256": "45987ab05094321b64fc81b2d6ded7a57c057fc15c259ebe905b2d579559ad3f",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429014045_UNKNOWN_2bc8aeba_train_tmpuj0jp0_o.txt.txt",
+      "bytes": 41,
+      "sha256": "2bc8aebab56e8e5dbd721c700461704ed724fa825e072e5d37a30ec8c2a8e229",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429014152_UNKNOWN_9868e44e_train_genesis6.txt.txt",
+      "bytes": 664,
+      "sha256": "9868e44edeb1e86a732c6a4ce34ba251ea6b7148f6aa2e3e6a8234e5146bfcab",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429021501_UNKNOWN_2802f9c5_train_genesis7.txt.txt",
+      "bytes": 428,
+      "sha256": "2802f9c52917e31b3d3cbadc82fa9a56cf55cd1802e77a3d5c0ecb508ce86f74",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429023726_UNKNOWN_48342520_train_tmp8scblaam.txt.txt",
+      "bytes": 61,
+      "sha256": "4834252051dac53a306ade14e636d1a92672b0684a7f4ab322477a7432e77308",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429024113_UNKNOWN_7bd1e934_train_tmptwpqlxhv.txt.txt",
+      "bytes": 396,
+      "sha256": "7bd1e93417bc310d0d5c56e1bfb3294ae89a9d3b4c84ca8ada865905648ae7fc",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429024343_UNKNOWN_174694ae_train_genesis7.txt.txt",
+      "bytes": 184,
+      "sha256": "174694ae24a61b0e9fc71f0906122c567c16eaaf65e24fb2f149d3ec9491d8d5",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429025151_UNKNOWN_70326212_train_tmp93b61h7t.txt.txt",
+      "bytes": 118,
+      "sha256": "70326212e29fb1e7cbdb1029798d1c2b1862ab3e97d9fa0f59b39650ef7ca710",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429032710_UNKNOWN_69942b10_train_tmp2jbfgdxw.txt.txt",
+      "bytes": 181,
+      "sha256": "69942b100fb7f6d678be60ace483885741b363f1d8b8d825682c0a8a98c55624",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429032743_UNKNOWN_2c664f1d_train_tmp0864u2ek.txt.txt",
+      "bytes": 175,
+      "sha256": "2c664f1d567a67fab0a65bbfd172934aee56a91cf6582160399af9b1b354c988",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429033350_UNKNOWN_2c664f1d_train_tmpxbn_41fx.txt.txt",
+      "bytes": 175,
+      "sha256": "2c664f1d567a67fab0a65bbfd172934aee56a91cf6582160399af9b1b354c988",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429033503_UNKNOWN_5d7bc5fe_train_tmpkq8s10b2.txt.txt",
+      "bytes": 163,
+      "sha256": "5d7bc5fef8224049faf65f264714789fbf77449df900d601f361ed3b16a6147e",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429051038_UNKNOWN_bac89363_train_tmpmafi360l.txt.txt",
+      "bytes": 180,
+      "sha256": "bac8936320233f25c9808416f412133513cd9b9c7c927bd2b4b646cf8710e74b",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429051336_UNKNOWN_9c0d5ac9_train_tmpa4v64bo_.txt.txt",
+      "bytes": 155,
+      "sha256": "9c0d5ac9fafd4bce4672145a9cb850ecd3bd39af55fc4efc3ad8b0fa7e873030",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429053820_UNKNOWN_53fcc7da_train_tmpfv7jwaao.txt.txt",
+      "bytes": 112,
+      "sha256": "53fcc7da4cc99a257a3774f84d53ffe3fcf358138f1adee3a9af2ba32654c808",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260429055745_UNKNOWN_bf727880_train_tmp0e12sv_0.txt.txt",
+      "bytes": 76,
+      "sha256": "bf7278804487d8b4a8331580c62a1d92d37c524af555fc6f0e535bc280c45926",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_BOOK_20260512101800_UNKNOWN_58b90414_train_tmpki_6ceu5.txt.txt",
+      "bytes": 1017,
+      "sha256": "58b90414d2984c2dce64bd79cf82d5f22d72f5999bbd01abf0fb27377fbf4d49",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "files/ZOMI_SOCIAL_20260512103424_UNKNOWN_bff8cec9_train_tmpgtyrg6nb.txt.txt",
+      "bytes": 906,
+      "sha256": "bff8cec9e2d477475c6945183946ba6a5b6b75b618aa27f549325a8f2d74cb4f",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260428152843_UNKNOWN_3fa32ac3__tmp_gradio_9a3256aa569eef543ac36cc17e48d22483d21239fccdad73303dc0cc022f1d86_test-zomi-sentence.txt.json",
+      "bytes": 433,
+      "sha256": "4874c9254d5d52fac7c28dee31a57f6a700f97df881f3c4e977f9be107a98912",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260428153447_UNKNOWN_a948904f__tmp_gradio_c584938623852c5097af3aa7d6d710a12df35d4bb136e1dd63b4dec07c9ab09d_test.txt.json",
+      "bytes": 419,
+      "sha256": "dc2dbc38607e55a2c8065eaed7d1375160700d27e79ca5f780710e910fe172d0",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260428154524_UNKNOWN_8a836722_genesis.txt.json",
+      "bytes": 423,
+      "sha256": "4916e33ab73971c0d14a33440701724a6eb400a3b73c049ca3897d34f0bea4e2",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260428155138_UNKNOWN_edcb2d60_train_genesis.txt.json",
+      "bytes": 429,
+      "sha256": "df7fdd0cb55c538709789fbacff4f99d24772da615b6173e6159860fbc05127e",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260428160606_UNKNOWN_1452d33c_genesis3.txt.json",
+      "bytes": 425,
+      "sha256": "553f93744908e6b5348f79c90ea8169b62d207dec0d0cc945d7a5405b346fe1e",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260428160829_UNKNOWN_ec8d544d_train_genesis4.txt.json",
+      "bytes": 424,
+      "sha256": "c1d4dc6836e489e81002d16abbc6bb904cf173f6e0b5f9723a0d17f1b9a3cf28",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260428161141_UNKNOWN_a05b398d_train_genesis5.txt.json",
+      "bytes": 424,
+      "sha256": "65b14afae834127467a02f1825bb247eef519e0871e11113b150995ea2acbf61",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429003601_UNKNOWN_19d2cfbf_train_tmp61hq4huq.txt.json",
+      "bytes": 354,
+      "sha256": "7286938387f4cb54ca2c26ea3f81de94f0240e55e3c99da8241ba2bed3da46d5",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429004336_UNKNOWN_8c113df2_train_tmpskylxzlz.txt.json",
+      "bytes": 354,
+      "sha256": "85e756c81996b2a0b4ab251c987765220f5a2615b88a04a786d41c75daa8e32d",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429011148_UNKNOWN_5877e003_train_tmpt97hsgj0.txt.json",
+      "bytes": 431,
+      "sha256": "37d32057276f9434949eb670a88861d1142e179d41fda5bcc3d4a2575a124686",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429011246_UNKNOWN_d4925f12_train_tmpxs18r6b5.txt.json",
+      "bytes": 431,
+      "sha256": "14c8cfd16ba1e1630d4f34837367765eb7304b9fc29345701cb7c13eb90a8f98",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429013102_UNKNOWN_e8e91e68_train_tmp12spzy8j.txt.json",
+      "bytes": 431,
+      "sha256": "2e5a135b09b0f5045845800dbec10c578cd75a918ce9481d7cd2eb6c17dcafe1",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429013952_UNKNOWN_45987ab0_train_tmp4skohx32.txt.json",
+      "bytes": 431,
+      "sha256": "6f4e16f93ab2b9dee01bcdcd909977ca47ff77de4ddef62b257e5e991637f5d7",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429014045_UNKNOWN_2bc8aeba_train_tmpuj0jp0_o.txt.json",
+      "bytes": 431,
+      "sha256": "fb0fba0e53f5b5a52bc5827ab59f727831f73b092e358c4f85a93a87364222e6",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429014152_UNKNOWN_9868e44e_train_genesis6.txt.json",
+      "bytes": 429,
+      "sha256": "237c1f4540cb17b98b494f18afdb35b9effd48c22c2a985e543b24cc319074c6",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429021501_UNKNOWN_2802f9c5_train_genesis7.txt.json",
+      "bytes": 429,
+      "sha256": "b6aa30299b8b731800fb50c7d15be172ee981f5d982fa1e26e8b452b5478ed0d",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429023726_UNKNOWN_48342520_train_tmp8scblaam.txt.json",
+      "bytes": 431,
+      "sha256": "27e3914991c02beedd891936dfecbde28fc27048d5846865c43420ba492316c8",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429024113_UNKNOWN_7bd1e934_train_tmptwpqlxhv.txt.json",
+      "bytes": 432,
+      "sha256": "d06fed0cb2d6925344080a7b4d92fb15a25ea2ab2d7a9782a811ef06b4c831bf",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429024343_UNKNOWN_174694ae_train_genesis7.txt.json",
+      "bytes": 429,
+      "sha256": "75c59ac3bfadc5b386612e145ab3775b9a557a68139d9223f65091c80ccbcfa0",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429025151_UNKNOWN_70326212_train_tmp93b61h7t.txt.json",
+      "bytes": 432,
+      "sha256": "998a61d243235d5be767fed563092b0c3a9cf551bc69cae0f80830cebe6bd06d",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429032710_UNKNOWN_69942b10_train_tmp2jbfgdxw.txt.json",
+      "bytes": 432,
+      "sha256": "13728257f9fcfd000eaa8b4ed336e03a6aa6005f83cf83d1b1143d83894a9b64",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429032743_UNKNOWN_2c664f1d_train_tmp0864u2ek.txt.json",
+      "bytes": 432,
+      "sha256": "28fe2aabacdab8bda724f75046ddf0356213f4c1f3d108cb7a2151c60209a8cb",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429033350_UNKNOWN_2c664f1d_train_tmpxbn_41fx.txt.json",
+      "bytes": 432,
+      "sha256": "2b9680085865510359e182997ddbad21dbacea92208c70f624421f282d3d1e72",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429033503_UNKNOWN_5d7bc5fe_train_tmpkq8s10b2.txt.json",
+      "bytes": 432,
+      "sha256": "daf1eea073e9bfc3426c79ca9048d0c63d2d324963a126343b78a2d5cebd9bdb",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429051038_UNKNOWN_bac89363_train_tmpmafi360l.txt.json",
+      "bytes": 547,
+      "sha256": "5aa61e26d8edef2eee0b073275dca2a29f60c77ef797d74750cca0a67022dff4",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429051336_UNKNOWN_9c0d5ac9_train_tmpa4v64bo_.txt.json",
+      "bytes": 547,
+      "sha256": "9d2629b94496bbdb7a2b660a224af2df9c60292bb81d9fbc84a108b780a86069",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429053820_UNKNOWN_53fcc7da_train_tmpfv7jwaao.txt.json",
+      "bytes": 547,
+      "sha256": "82f85fc1a896ae903b41a090da0132c24ce06a8dd9fac92e89d229365ba694b6",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260429055745_UNKNOWN_bf727880_train_tmp0e12sv_0.txt.json",
+      "bytes": 546,
+      "sha256": "5dc587cff05b01608bd1162da4ae4dc5044636b24ef5e51414d25a89f4c790fd",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_BOOK_20260512101800_UNKNOWN_58b90414_train_tmpki_6ceu5.txt.json",
+      "bytes": 548,
+      "sha256": "a3919e0f798e5b26450bbf409b8f4b73b90ca1dd0ade345559a1f87c7b61aa3d",
+      "status": "VERIFIED"
+    },
+    {
+      "file": "metadata/ZOMI_SOCIAL_20260512103424_UNKNOWN_bff8cec9_train_tmpgtyrg6nb.txt.json",
+      "bytes": 556,
+      "sha256": "f8a9b3c076017ac8e9d2a690f09cd2c3efd1391862e1e0956888bd3387c64b67",
+      "status": "VERIFIED"
+    }
+  ]
+}

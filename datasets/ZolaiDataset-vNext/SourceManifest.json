@@ -1,0 +1,2534 @@
+{
+  "audit_date": "2026-10-07",
+  "status": "DISCOVERY_AND_LICENSE_AUDIT; NOT_TRAINING_AUTHORIZATION",
+  "scope": "Bounded first-page keyword searches Tedim, Zomi, Zolai, Zopau, Zo Pau on HF; ctd language tag first-page 100 limit; Kaggle keyword first pages; targeted GitHub repositories. Not exhaustive internet discovery. Empty keyword results do not prove absence.",
+  "sources": [
+    {
+      "dataset_name": "AMIDHRP/ZomiLanguage",
+      "source": "GitHub",
+      "owner": "AMIDHRP",
+      "url": "https://github.com/AMIDHRP/ZomiLanguage",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2025-03-29T23:30:54Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "MIT",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 93,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Repository code license does not automatically cover contributed text; per-file provenance/dialect audit required.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "BiakHong/zomi-monolingual-corpus",
+      "source": "GitHub",
+      "owner": "BiakHong",
+      "url": "https://github.com/BiakHong/zomi-monolingual-corpus",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2026-08-27T18:55:31Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "CC-BY-4.0",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 28,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Documentation mirror of accepted HF corpus; do not count as new corpus. CC-BY-4.0 is explicit in LICENSE despite GitHub NOASSERTION detection.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "LianHong/zomi-monolingual-corpus (GitHub URL in existing manifest)",
+      "source": "GitHub",
+      "owner": "LianHong",
+      "url": "https://github.com/LianHong/zomi-monolingual-corpus",
+      "last_update": "UNKNOWN",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN",
+      "license": "UNKNOWN",
+      "size": {
+        "measured_rows": null
+      },
+      "quality_status": "UNKNOWN",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE",
+      "decision": "REVIEW",
+      "verification": "UNVERIFIED",
+      "reason": "Not verified at this GitHub owner. Verified HF owner is LianHong; GitHub documentation owner is BiakHong.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Za-Sang/ZomiLanguage",
+      "source": "GitHub",
+      "owner": "Za-Sang",
+      "url": "https://github.com/Za-Sang/ZomiLanguage",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2025-04-05T17:33:21Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "MIT",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 111,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Repository code license does not automatically cover contributed text; per-file provenance/dialect audit required.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai-AI/zolai-datasets",
+      "source": "GitHub",
+      "owner": "Zolai-AI",
+      "url": "https://github.com/Zolai-AI/zolai-datasets",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2026-10-02T22:42:29Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "MIT",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 2187,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Repository code license does not automatically cover contributed text; per-file provenance/dialect audit required.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "chuuhtetnaing/myanmar-language-dataset-collection",
+      "source": "GitHub",
+      "owner": "chuuhtetnaing",
+      "url": "https://github.com/chuuhtetnaing/myanmar-language-dataset-collection",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2026-06-13T04:59:37Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "UNKNOWN",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 2562,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Collection index or OSINT scope; do not ingest personal profiles or unrelated Myanmar data.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "paumkim/zomi-dataset",
+      "source": "GitHub",
+      "owner": "paumkim",
+      "url": "https://github.com/paumkim/zomi-dataset",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2026-06-16T01:03:57Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "NOASSERTION",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 340697,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Dataset card declares CC0; baseline claims CC-BY-4.0. Collection includes third-party text; provenance/rights review required before ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "peterlianpi/Tedim-Chin-Bible",
+      "source": "GitHub",
+      "owner": "peterlianpi",
+      "url": "https://github.com/peterlianpi/Tedim-Chin-Bible",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2024-12-10T16:07:31Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "UNKNOWN",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 16967,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Repository code license does not automatically cover contributed text; per-file provenance/dialect audit required.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "peterlianpi/zolai-ai",
+      "source": "GitHub",
+      "owner": "peterlianpi",
+      "url": "https://github.com/peterlianpi/zolai-ai",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2026-09-28T03:23:49Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "MIT",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 188752,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Repository code license does not automatically cover contributed text; per-file provenance/dialect audit required.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "rappermuang424-tech/zomi-text-dataset",
+      "source": "GitHub",
+      "owner": "rappermuang424-tech",
+      "url": "https://github.com/rappermuang424-tech/zomi-text-dataset",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2025-03-07T18:32:43Z",
+      "language_declared": [
+        "UNKNOWN; see source card"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "MIT",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 7,
+        "measured_rows": null,
+        "note": "Repository size is not language corpus size."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: mirror/collection overlap",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Repository code license does not automatically cover contributed text; per-file provenance/dialect audit required.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "📄 FinePDFs",
+      "source": "Hugging Face",
+      "owner": "HuggingFaceFW",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+      "revision": "220bac3acbf07789502c621d2d33952f51ac7f86",
+      "last_update": "2026-04-03T19:19:23.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "odc-by",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n>1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 1810,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "FineTranslations",
+      "source": "Hugging Face",
+      "owner": "HuggingFaceFW",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finetranslations",
+      "revision": "af3f4ca895450216d4771cdbf3e3b95c5bacaa2a",
+      "last_update": "2026-01-09T16:45:58.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "odc-by",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n>1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 497,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "FineTranslations-Edu",
+      "source": "Hugging Face",
+      "owner": "HuggingFaceFW",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finetranslations-edu",
+      "revision": "93f3d2c7b74d7a0a98802f298c63f3d63282a7df",
+      "last_update": "2026-01-09T17:05:49.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "odc-by",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n>1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 497,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "🥂 FineWeb 2",
+      "source": "Hugging Face",
+      "owner": "HuggingFaceFW",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2",
+      "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "last_update": "2025-10-27T18:32:07.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "odc-by",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n>1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 1813,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "Juna190825/xtts-v2-zomi-finetune",
+      "source": "Hugging Face",
+      "owner": "Juna190825",
+      "url": "https://huggingface.co/datasets/Juna190825/xtts-v2-zomi-finetune",
+      "revision": "afd05674365ad711b2f23bf032d5193c4af6ee93",
+      "last_update": "2026-03-04T17:57:52.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Juna190825/xtts-v2-zomi-finetune-data-v1",
+      "source": "Hugging Face",
+      "owner": "Juna190825",
+      "url": "https://huggingface.co/datasets/Juna190825/xtts-v2-zomi-finetune-data-v1",
+      "revision": "ff557a1c71ed0b34f5dfb3c85a37c77a39ce992d",
+      "last_update": "2026-03-05T09:46:21.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "📄 FinePDFs",
+      "source": "Hugging Face",
+      "owner": "KefranAbg",
+      "url": "https://huggingface.co/datasets/KefranAbg/finepdfs",
+      "revision": "f2479d369bc7f3c099cf1f740afc49b2c4e28a26",
+      "last_update": "2025-12-03T10:44:07.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "odc-by",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n>1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 1810,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "Zomi Monolingual Corpus v1.0",
+      "source": "Hugging Face",
+      "owner": "LianHong",
+      "url": "https://huggingface.co/datasets/LianHong/zomi-monolingual-corpus",
+      "revision": "9c6bde579fcd0dc8f4e3b52a44d0632d8ac1cff8",
+      "last_update": "2026-08-27T18:53:13.000Z",
+      "language_declared": [
+        "ctd"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "cc-by-4.0",
+      "license_evidence": "LICENSE_FILE_AND_ATTRIBUTION_VERIFIED",
+      "size": {
+        "hub_used_storage_bytes": 214270813,
+        "claimed_size_category": [
+          "100K<n<1M"
+        ],
+        "measured_rows": 363401,
+        "measured_payload_bytes": 177717625,
+        "note": "Hub storage is not CSV size or number of rows.",
+        "retained_candidate_rows": 361348
+      },
+      "quality_status": "AUTOMATED_FULL_CSV_AUDIT_COMPLETE; HUMAN_REVIEW_REQUIRED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "DISABLED: heuristic score below 0.8; native review and deployment novelty unresolved",
+      "decision": "ACCEPT",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Permission and CC-BY-4.0 notice present; owner-held permission correspondence not independently examined; native review still required.",
+      "quarantine": false
+    },
+    {
+      "dataset_name": "MihaiPopa-1/OmniSurgical-1.0",
+      "source": "Hugging Face",
+      "owner": "MihaiPopa-1",
+      "url": "https://huggingface.co/datasets/MihaiPopa-1/OmniSurgical-1.0",
+      "revision": "6950fd8ed0566258fafcb15d3ae88860004597ac",
+      "last_update": "2026-04-08T06:07:12.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "apache-2.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "10K<n<100K"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 497,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "Udhr",
+      "source": "Hugging Face",
+      "owner": "SEACrowd",
+      "url": "https://huggingface.co/datasets/SEACrowd/udhr",
+      "revision": "c578aef717121cb4c679ae28d31e8f10f9760772",
+      "last_update": "2024-06-24T13:28:41.000Z",
+      "language_declared": [
+        "ctd",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "unknown",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 35,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "Unisent",
+      "source": "Hugging Face",
+      "owner": "SEACrowd",
+      "url": "https://huggingface.co/datasets/SEACrowd/unisent",
+      "revision": "1957c5b11399a05c76db58e330a73b8d0acabac0",
+      "last_update": "2024-06-24T13:31:34.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-nc-nd-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 173,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "SayaMuang/Zomi-language-data",
+      "source": "Hugging Face",
+      "owner": "SayaMuang",
+      "url": "https://huggingface.co/datasets/SayaMuang/Zomi-language-data",
+      "revision": "a37d3154365a71725d29d2a786212531ad372303",
+      "last_update": "2025-03-08T17:57:31.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "mit",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 2719,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zomi-English Parallel Intelligence Corpus (ZEPIC)",
+      "source": "Hugging Face",
+      "owner": "ZomiLanguage",
+      "url": "https://huggingface.co/datasets/ZomiLanguage/zomilanguage",
+      "revision": "42e56983f46f94721da0019e950a6fa8ab30a1e0",
+      "last_update": "2026-01-19T17:11:41.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "en"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "apache-2.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": [
+          "10K<n<100K"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "English–Zomi Parallel Corpus (1.78M)",
+      "source": "Hugging Face",
+      "owner": "ZomiLearner",
+      "url": "https://huggingface.co/datasets/ZomiLearner/English-Zomi-OPUS_Tatoeba_v20230412",
+      "revision": "10d8d62e758c47731eed06136a946716775990d8",
+      "last_update": "2026-02-26T05:05:33.000Z",
+      "language_declared": [
+        "en",
+        "ctd"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "cc0-1.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 28252562114,
+        "claimed_size_category": [
+          "1M<n<10M"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "ZomiLearner/English_Mono_Corpus",
+      "source": "Hugging Face",
+      "owner": "ZomiLearner",
+      "url": "https://huggingface.co/datasets/ZomiLearner/English_Mono_Corpus",
+      "revision": "09f01b55ed50b6a8ab8246967178aafde69f3534",
+      "last_update": "2026-05-19T03:06:29.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Out of target text scope; no ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "ZomiLearner/English_Mono_HashIndex",
+      "source": "Hugging Face",
+      "owner": "ZomiLearner",
+      "url": "https://huggingface.co/datasets/ZomiLearner/English_Mono_HashIndex",
+      "revision": "69f0b699b2a05b080e2ba8ee92a724d88269c93c",
+      "last_update": "2026-05-19T03:37:45.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Out of target text scope; no ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "amine-khelif/mms_ulab_v2",
+      "source": "Hugging Face",
+      "owner": "amine-khelif",
+      "url": "https://huggingface.co/datasets/amine-khelif/mms_ulab_v2",
+      "revision": "05dd3a12c7a38e40eb9ab137a17ce1e51fe5949a",
+      "last_update": "2026-03-17T10:31:08.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-nc-sa-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 4023,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "🥂 FineWeb 2",
+      "source": "Hugging Face",
+      "owner": "caoyuji",
+      "url": "https://huggingface.co/datasets/caoyuji/fineweb-2",
+      "revision": "4057e43d8bcc1ed997df3bc04c24de9cfc38c3bf",
+      "last_update": "2025-12-08T07:02:49.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "odc-by",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n>1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 1813,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "cis-lmu/GlotCC-V1",
+      "source": "Hugging Face",
+      "owner": "cis-lmu",
+      "url": "https://huggingface.co/datasets/cis-lmu/GlotCC-V1",
+      "revision": "9ad140b6be3ac7b539606a2b4809b49d122823de",
+      "last_update": "2024-11-01T11:09:18.000Z",
+      "language_declared": [
+        "ctd",
+        "en",
+        "my",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc0-1.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 1397,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "UDHR-LID",
+      "source": "Hugging Face",
+      "owner": "cis-lmu",
+      "url": "https://huggingface.co/datasets/cis-lmu/udhr-lid",
+      "revision": "6908db2a27c296158da7e69782d15df911652184",
+      "last_update": "2024-07-20T18:09:38.000Z",
+      "language_declared": [
+        "ctd",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc0-1.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 429,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "Segmented MMS ulab v2",
+      "source": "Hugging Face",
+      "owner": "coml",
+      "url": "https://huggingface.co/datasets/coml/mmsulab",
+      "revision": "480c9dda056f46f907618dc81647a554a48585f6",
+      "last_update": "2026-03-29T21:57:42.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-nc-sa-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "1M<n<10M"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 4023,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "The Universal Declaration of Human Rights (UDHR)",
+      "source": "Hugging Face",
+      "owner": "community-datasets",
+      "url": "https://huggingface.co/datasets/community-datasets/udhr",
+      "revision": "bd8e3b36f543b2adb1959678450a7092811ebb24",
+      "last_update": "2024-01-18T11:17:42.000Z",
+      "language_declared": [
+        "ctd",
+        "en",
+        "my",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": [
+        "unknown"
+      ],
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n<1K"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 414,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "esalesky/ted-im2im-de-en",
+      "source": "Hugging Face",
+      "owner": "esalesky",
+      "url": "https://huggingface.co/datasets/esalesky/ted-im2im-de-en",
+      "revision": "3b61578d8cb475a2de2b6cfc7d2bd36ebc10630f",
+      "last_update": "2023-08-08T23:44:42.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Out of target text scope; no ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "esalesky/ted-im2im-es-en",
+      "source": "Hugging Face",
+      "owner": "esalesky",
+      "url": "https://huggingface.co/datasets/esalesky/ted-im2im-es-en",
+      "revision": "b4f4289f654a36dc691d7f4bcdb5448612d53ecc",
+      "last_update": "2023-08-08T23:37:57.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Out of target text scope; no ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "esalesky/ted-im2im-zhcn-en",
+      "source": "Hugging Face",
+      "owner": "esalesky",
+      "url": "https://huggingface.co/datasets/esalesky/ted-im2im-zhcn-en",
+      "revision": "b8a420d8dc00ab47883c92fce5974fe54c3fd512",
+      "last_update": "2023-08-08T23:45:42.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Out of target text scope; no ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "espnet/mms_ulab_v2",
+      "source": "Hugging Face",
+      "owner": "espnet",
+      "url": "https://huggingface.co/datasets/espnet/mms_ulab_v2",
+      "revision": "0cb20326433d69b6e74e1ac301cf85b1c568e6a5",
+      "last_update": "2025-02-04T21:50:02.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-nc-sa-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 4023,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "Zomi ASR",
+      "source": "Hugging Face",
+      "owner": "freococo",
+      "url": "https://huggingface.co/datasets/freococo/zomi_asr",
+      "revision": "5377f80520dd37c8dbd26a832801f95744562917",
+      "last_update": "2025-06-13T09:13:49.000Z",
+      "language_declared": [
+        "zom"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "cc0-1.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 1731241372,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Goldfish Datasets",
+      "source": "Hugging Face",
+      "owner": "goldfish-models",
+      "url": "https://huggingface.co/datasets/goldfish-models/fish-food",
+      "revision": "78ebeecb8a650267094071d87fbc8241c36ec96f",
+      "last_update": "2026-05-06T04:44:41.000Z",
+      "language_declared": [
+        "ctd",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-nc-sa-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 428,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "innadark/GlotCC-V1",
+      "source": "Hugging Face",
+      "owner": "innadark",
+      "url": "https://huggingface.co/datasets/innadark/GlotCC-V1",
+      "revision": "9c882a3c259df67f988998be5cc2ba5059bfed2f",
+      "last_update": "2026-01-09T14:59:24.000Z",
+      "language_declared": [
+        "ctd",
+        "en",
+        "my",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc0-1.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 1397,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "ivanzomi/Zomi",
+      "source": "Hugging Face",
+      "owner": "ivanzomi",
+      "url": "https://huggingface.co/datasets/ivanzomi/Zomi",
+      "revision": "1ae864f0a91acced98e6a30ce3cabc9b93d1bb06",
+      "last_update": "2026-09-09T15:39:45.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "other",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": [
+          "100B<n<1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Wiktionary Structured",
+      "source": "Hugging Face",
+      "owner": "jake-anto",
+      "url": "https://huggingface.co/datasets/jake-anto/wiktionary",
+      "revision": "4952b37aa5e8259eccd4b06a60c45a4d316efcaa",
+      "last_update": "2026-07-28T15:03:12.000Z",
+      "language_declared": [
+        "ctd",
+        "en",
+        "my",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-sa-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "10M<n<100M"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 4474,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "lbourdois/language_tags",
+      "source": "Hugging Face",
+      "owner": "lbourdois",
+      "url": "https://huggingface.co/datasets/lbourdois/language_tags",
+      "revision": "ca893606ec231e138756276c1ba06b2d3c1d61ef",
+      "last_update": "2024-01-21T21:19:17.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "1K<n<10K"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 7909,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "lbourdois/panlex",
+      "source": "Hugging Face",
+      "owner": "lbourdois",
+      "url": "https://huggingface.co/datasets/lbourdois/panlex",
+      "revision": "feb3a878db0fdc93cadf739f3a2749be4d4698c8",
+      "last_update": "2024-02-03T17:36:12.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc0-1.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "10M<n<100M"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 6152,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "FineFreq",
+      "source": "Hugging Face",
+      "owner": "lgi2p",
+      "url": "https://huggingface.co/datasets/lgi2p/finefreq",
+      "revision": "d632365ef1c86c734960caa962eaa2d4038c715a",
+      "last_update": "2025-12-11T12:58:08.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 1814,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "mangpijasuan/Zomi_Translation",
+      "source": "Hugging Face",
+      "owner": "mangpijasuan",
+      "url": "https://huggingface.co/datasets/mangpijasuan/Zomi_Translation",
+      "revision": "c3616e38a7f963cb437bd6a706de2705f85dd885",
+      "last_update": "2024-09-18T01:46:09.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "mangpijasuan/zomi_language_dataset",
+      "source": "Hugging Face",
+      "owner": "mangpijasuan",
+      "url": "https://huggingface.co/datasets/mangpijasuan/zomi_language_dataset",
+      "revision": "ae185e08558b0809acdae3be26bec9ec7c60d96b",
+      "last_update": "2024-11-03T04:18:13.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "cc-by-2.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "DCAD-2000",
+      "source": "Hugging Face",
+      "owner": "openbmb",
+      "url": "https://huggingface.co/datasets/openbmb/DCAD-2000",
+      "revision": "233fa6dd3b0eabbc78f48aabbf024436354894dc",
+      "last_update": "2025-12-05T20:06:09.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "other",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": [
+          "n>1T"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 2261,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "paumkim/zomi-dataset",
+      "source": "Hugging Face",
+      "owner": "paumkim",
+      "url": "https://huggingface.co/datasets/paumkim/zomi-dataset",
+      "revision": "78ef4a6dfe77bbd03e1ec387e1a98464e08283b5",
+      "last_update": "2026-06-14T01:32:56.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 444585659,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai Knowledge Vectors (English-Zo Bible + Dictionary + Wiki)",
+      "source": "Hugging Face",
+      "owner": "peterpausianlian",
+      "url": "https://huggingface.co/datasets/peterpausianlian/zolai-knowledge-vectors",
+      "revision": "3e2968e40095376715088933b2a29fd2b04f50b0",
+      "last_update": "2026-09-05T18:14:02.000Z",
+      "language_declared": [
+        "zo",
+        "en"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zo",
+        "Zolai"
+      ],
+      "license": "mit",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 6325821750,
+        "claimed_size_category": [
+          "10M<n<100M"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "peterpausianlian/zolai-language-corpus",
+      "source": "Hugging Face",
+      "owner": "peterpausianlian",
+      "url": "https://huggingface.co/datasets/peterpausianlian/zolai-language-corpus",
+      "revision": "f644fd0c9bf5da16e24a85cc88b7c9b58dcbf179",
+      "last_update": "2026-09-06T19:22:54.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zo",
+        "Zolai"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 2091728744,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "sundram1996/mms_ulab_v2",
+      "source": "Hugging Face",
+      "owner": "sundram1996",
+      "url": "https://huggingface.co/datasets/sundram1996/mms_ulab_v2",
+      "revision": "67ead4fa036999df47c5c33e2b98878a22e54509",
+      "last_update": "2026-03-30T06:12:03.000Z",
+      "language_declared": [
+        "ctd",
+        "zom",
+        "MULTILINGUAL; other source-declared codes in evidence"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [],
+      "license": "cc-by-nc-sa-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": null,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_SEARCH_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true,
+      "declared_language_code_count": 4023,
+      "full_language_metadata_evidence": "evidence/hf-language-ctd.json.gz or source API"
+    },
+    {
+      "dataset_name": "thangdeihpiang/ZomiGPT",
+      "source": "Hugging Face",
+      "owner": "thangdeihpiang",
+      "url": "https://huggingface.co/datasets/thangdeihpiang/ZomiGPT",
+      "revision": "47548f941c57b724da9f6ec2466936db7d1f815f",
+      "last_update": "2026-09-04T10:29:37.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 443340380,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "English–Zomi Parallel Corpus (1.78M)",
+      "source": "Hugging Face",
+      "owner": "zomi-language-corpora",
+      "url": "https://huggingface.co/datasets/zomi-language-corpora/English-Zomi-OPUS_Tatoeba_v20230412",
+      "revision": "24f448aa7243230690a8f60a587cb55ca9880090",
+      "last_update": "2026-04-28T06:20:51.000Z",
+      "language_declared": [
+        "en",
+        "ctd"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "cc0-1.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 651375468,
+        "claimed_size_category": [
+          "1M<n<10M"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "zomi-language-corpora/English_Mono_Corpus",
+      "source": "Hugging Face",
+      "owner": "zomi-language-corpora",
+      "url": "https://huggingface.co/datasets/zomi-language-corpora/English_Mono_Corpus",
+      "revision": "e677c63bfdb1b43cd6167ea9e15eeb6957a8029e",
+      "last_update": "2026-05-19T05:09:10.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 12621844,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Out of target text scope; no ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "zomi-language-corpora/English_Mono_HashIndex",
+      "source": "Hugging Face",
+      "owner": "zomi-language-corpora",
+      "url": "https://huggingface.co/datasets/zomi-language-corpora/English_Mono_HashIndex",
+      "revision": "87c1d215c32fd61ef0d0040b9d2e9d6aba36ac81",
+      "last_update": "2026-05-19T05:46:28.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 12621844,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Out of target text scope; no ingestion.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zomi Raw Text Corpus",
+      "source": "Hugging Face",
+      "owner": "zomi-language-corpora",
+      "url": "https://huggingface.co/datasets/zomi-language-corpora/raw-text-corpus",
+      "revision": "b03bb5552f3d272269bd78566747cdc874e992b5",
+      "last_update": "2026-05-12T10:34:26.000Z",
+      "language_declared": [
+        "ctd",
+        "zol"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "cc-by-sa-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 28242,
+        "claimed_size_category": [
+          "1K<n<1M"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "zomi-language-corpora/test",
+      "source": "Hugging Face",
+      "owner": "zomi-language-corpora",
+      "url": "https://huggingface.co/datasets/zomi-language-corpora/test",
+      "revision": "ee12df6d3e4ab3127231f489867c43f219fbc883",
+      "last_update": "2026-05-19T05:08:07.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 818,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "zomi-language-corpora/xtts-v2-zomi-finetune-data-v1",
+      "source": "Hugging Face",
+      "owner": "zomi-language-corpora",
+      "url": "https://huggingface.co/datasets/zomi-language-corpora/xtts-v2-zomi-finetune-data-v1",
+      "revision": "5129852a1220c8e4c2ef12ab57e75975ae635bfc",
+      "last_update": "2026-04-28T06:17:26.000Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "UNKNOWN",
+      "license_evidence": "UNKNOWN",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": "UNKNOWN",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zomi Syllabified Words",
+      "source": "Hugging Face",
+      "owner": "zomi-language-corpora",
+      "url": "https://huggingface.co/datasets/zomi-language-corpora/zomi_syllabified_human",
+      "revision": "9c90987bfd1e4538f30b72d25b5cf500dc9fbb95",
+      "last_update": "2026-10-01T03:22:14.000Z",
+      "language_declared": [
+        "ctd"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [
+        "Zomi",
+        "Zo"
+      ],
+      "license": "mit",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 822,
+        "claimed_size_category": "10K<n<100K",
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zomi Tedim–Burmese Parallel Bible Corpus",
+      "source": "Hugging Face",
+      "owner": "zomi-tedim-ai",
+      "url": "https://huggingface.co/datasets/zomi-tedim-ai/zomi-tedim-bible-corpus",
+      "revision": "58666b14080f9502e229c3e5ce52a7e91af606e0",
+      "last_update": "2026-09-04T12:25:09.000Z",
+      "language_declared": [
+        "ctd",
+        "my"
+      ],
+      "dialect_status": "SOURCE_DECLARED_CTD; INDEPENDENT_NATIVE_REVIEW_UNKNOWN",
+      "alias_labels": [
+        "Tedim",
+        "Zomi",
+        "Zo"
+      ],
+      "license": "cc-by-4.0",
+      "license_evidence": "CARD_OR_API_CLAIM_ONLY",
+      "size": {
+        "hub_used_storage_bytes": 0,
+        "claimed_size_category": [
+          "1K<n<10K"
+        ],
+        "measured_rows": null,
+        "measured_payload_bytes": null,
+        "note": "Hub storage is not CSV size or number of rows."
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: SOURCE/MIRROR OVERLAP UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_METADATA",
+      "reason": "Do not ingest until per-file provenance, underlying rights, dialect, content and duplicates are checked.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Augmentedimagesfortanishq",
+      "source": "Kaggle",
+      "owner": "bhavyaratanmaroo",
+      "url": "https://www.kaggle.com/datasets/bhavyaratanmaroo/augmentedimagesfortanishq",
+      "revision": "UNKNOWN",
+      "last_update": "2025-11-27T02:18:48.897Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "CC0: Public Domain",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 39570686,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "RGBfundusaugmentedimages",
+      "source": "Kaggle",
+      "owner": "devanshgoyal004",
+      "url": "https://www.kaggle.com/datasets/devanshgoyal004/rgbfundusaugmentedimages",
+      "revision": "UNKNOWN",
+      "last_update": "2025-04-03T11:09:59.053Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "MIT",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 41768035037,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "NewBluegeneratedImage-Handpd",
+      "source": "Kaggle",
+      "owner": "himani04012007",
+      "url": "https://www.kaggle.com/datasets/himani04012007/newbluegeneratedimage-handpd",
+      "revision": "UNKNOWN",
+      "last_update": "2026-08-12T00:01:07.573Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Database: Open Database, Contents: Database Contents",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 5362762,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "NewBluegeneratedImagedata4b-Handpd",
+      "source": "Kaggle",
+      "owner": "himani04012007",
+      "url": "https://www.kaggle.com/datasets/himani04012007/newbluegeneratedimagedata4b-handpd",
+      "revision": "UNKNOWN",
+      "last_update": "2026-08-12T00:40:58.86Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Database: Open Database, Contents: Database Contents",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 3584221,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zomi Zolai Simbu Tanlang",
+      "source": "Kaggle",
+      "owner": "ivanzomi",
+      "url": "https://www.kaggle.com/datasets/ivanzomi/zomi-zolai-simbu-tanlang",
+      "revision": "UNKNOWN",
+      "last_update": "2026-09-09T16:03:03.963Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "CC0: Public Domain",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 10662,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "generatedImage_448",
+      "source": "Kaggle",
+      "owner": "jiuyunzhang",
+      "url": "https://www.kaggle.com/datasets/jiuyunzhang/generatedimage-448",
+      "revision": "UNKNOWN",
+      "last_update": "2021-02-18T02:10:40.467Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Unknown",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 322475022,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "generatedImage",
+      "source": "Kaggle",
+      "owner": "juanavelar87",
+      "url": "https://www.kaggle.com/datasets/juanavelar87/generatedimage",
+      "revision": "UNKNOWN",
+      "last_update": "2026-09-27T20:27:01.43Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "MIT",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 3099869,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "ALL_IDB1_AugmentedImages_Morphology",
+      "source": "Kaggle",
+      "owner": "mohamedasalamnoaman",
+      "url": "https://www.kaggle.com/datasets/mohamedasalamnoaman/all-idb1-augmentedimages-morphology",
+      "revision": "UNKNOWN",
+      "last_update": "2024-08-18T08:58:21.98Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Unknown",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 114542503,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "ALLIDB1_AugmentedImages_Original",
+      "source": "Kaggle",
+      "owner": "mohamedasalamnoaman",
+      "url": "https://www.kaggle.com/datasets/mohamedasalamnoaman/allidb1-augmentedimages-original",
+      "revision": "UNKNOWN",
+      "last_update": "2024-11-22T13:53:14.38Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Unknown",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 1107476527,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai Bible Corpus — USX Format",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/bible-datasets",
+      "revision": "UNKNOWN",
+      "last_update": "2026-03-31T07:15:13.477Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 71632651,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai Qwen2.5-3B LoRA Adapter",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-adapter-qwen25-3b",
+      "revision": "UNKNOWN",
+      "last_update": "2026-04-20T07:47:29.943Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 6841679,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai HuggingFace Advanced Dataset",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-hf-advanced",
+      "revision": "UNKNOWN",
+      "last_update": "2026-03-26T08:08:48.727Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 66867409,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai HuggingFace Base Dataset",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-hf-dataset",
+      "revision": "UNKNOWN",
+      "last_update": "2026-03-26T08:10:16.987Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 122253655,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai Tedim Chin Language Dataset",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-language-dataset-v2",
+      "revision": "UNKNOWN",
+      "last_update": "2026-04-04T18:14:46.257Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 3353495,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai LLM Training Dataset",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-llm-training-dataset",
+      "revision": "UNKNOWN",
+      "last_update": "2026-05-03T16:05:24.21Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 94144337,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai Master Data 8GB",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-master-data",
+      "revision": "UNKNOWN",
+      "last_update": "2026-04-04T15:26:35.51Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 3350355,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai Tedim Cleaned Master Corpus",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-tedim-cleaned-master",
+      "revision": "UNKNOWN",
+      "last_update": "2026-03-25T06:44:14.537Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 120428245,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Zolai Unified Corpus",
+      "source": "Kaggle",
+      "owner": "peterpausianlian",
+      "url": "https://www.kaggle.com/datasets/peterpausianlian/zolai-unified",
+      "revision": "UNKNOWN",
+      "last_update": "2026-03-03T02:53:26.057Z",
+      "language_declared": [
+        "Tedim Zolai / Tedim Chin (publisher description)"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Attribution 4.0 International (CC BY 4.0)",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 343302,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "HIGH: same publisher family and possible Bible/HF mirrors",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Underlying text rights and file contents not verified; Bible copyright requires separate permission.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "pixelatedimage_detection_correction",
+      "source": "Kaggle",
+      "owner": "prajusha",
+      "url": "https://www.kaggle.com/datasets/prajusha/pixelatedimage-detection-correction",
+      "revision": "UNKNOWN",
+      "last_update": "2024-06-11T04:41:14.457Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Database: Open Database, Contents: Database Contents",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 105602204,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "augmentedimagessame",
+      "source": "Kaggle",
+      "owner": "raghdaessam",
+      "url": "https://www.kaggle.com/datasets/raghdaessam/augmentedimagessame",
+      "revision": "UNKNOWN",
+      "last_update": "2025-01-16T23:13:14.883Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Apache 2.0",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 16132289590,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "mmseg_test_gta5generatedimg_cityscapes",
+      "source": "Kaggle",
+      "owner": "wzyanne",
+      "url": "https://www.kaggle.com/datasets/wzyanne/mmseg-test-gta5generatedimg-cityscapes",
+      "revision": "UNKNOWN",
+      "last_update": "2023-11-17T16:19:11.467Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "Apache 2.0",
+      "license_evidence": "PLATFORM_CLAIM_ONLY",
+      "size": {
+        "platform_total_bytes": 2633696827,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_OUT_OF_SCOPE",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "Model adapter or irrelevant image match, not target text training corpus.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Piangpi1997/Piangpi1997-zomi-dataset-app",
+      "source": "GitHub",
+      "owner": "Piangpi1997",
+      "url": "https://github.com/Piangpi1997/Piangpi1997-zomi-dataset-app",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2026-09-02T05:38:20Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "UNKNOWN",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 2,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "App/repository wrapper; language corpus files and rights unverified.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "Piangpi1997/Piangpi1997-zomi-dataset-app-renew",
+      "source": "GitHub",
+      "owner": "Piangpi1997",
+      "url": "https://github.com/Piangpi1997/Piangpi1997-zomi-dataset-app-renew",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2026-09-03T12:26:41Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "NOASSERTION",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 34,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REVIEW",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "App/repository wrapper; language corpus files and rights unverified.",
+      "quarantine": true
+    },
+    {
+      "dataset_name": "disciplesian/Zomi-OSINT",
+      "source": "GitHub",
+      "owner": "disciplesian",
+      "url": "https://github.com/disciplesian/Zomi-OSINT",
+      "revision": "DEFAULT_BRANCH_METADATA_NOT_PINNED",
+      "last_update": "2025-06-29T16:55:50Z",
+      "language_declared": [
+        "UNKNOWN"
+      ],
+      "dialect_status": "UNKNOWN; NO_AUTO_MAPPING",
+      "license": "UNKNOWN",
+      "license_evidence": "REPOSITORY_METADATA_ONLY",
+      "size": {
+        "repository_size_kib": 25604,
+        "measured_rows": null
+      },
+      "quality_status": "NOT_AUDITED",
+      "duplicate_risk": "UNKNOWN",
+      "training_eligibility": "INELIGIBLE_PENDING_AUDIT",
+      "decision": "REJECT",
+      "verification": "VERIFIED_API_METADATA",
+      "reason": "OSINT personal-profile collection excluded.",
+      "quarantine": true
+    }
+  ]
+}

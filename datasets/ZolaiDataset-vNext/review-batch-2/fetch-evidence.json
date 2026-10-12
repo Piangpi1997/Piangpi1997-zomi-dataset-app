@@ -1,0 +1,65 @@
+[
+  {
+    "source": "zomi-language-corpora/zomi_syllabified_human",
+    "revision": "9c90987bfd1e4538f30b72d25b5cf500dc9fbb95",
+    "file": "README.md",
+    "url": "https://huggingface.co/datasets/zomi-language-corpora/zomi_syllabified_human/resolve/9c90987bfd1e4538f30b72d25b5cf500dc9fbb95/README.md",
+    "bytes": 754,
+    "sha256": "8752ba146e25d13125be17da8b6f5359d1676b5ed36d40a29562d5accf54d956",
+    "status": "VERIFIED"
+  },
+  {
+    "source": "zomi-language-corpora/zomi_syllabified_human",
+    "revision": "9c90987bfd1e4538f30b72d25b5cf500dc9fbb95",
+    "file": "data/train_zomi_syllabified_human.tsv",
+    "url": "https://huggingface.co/datasets/zomi-language-corpora/zomi_syllabified_human/resolve/9c90987bfd1e4538f30b72d25b5cf500dc9fbb95/data/train_zomi_syllabified_human.tsv",
+    "bytes": 233236,
+    "sha256": "f8e04ee2a92fb97a693457873296c4d331c523ee70f196de281a0f6d7aec299a",
+    "status": "VERIFIED"
+  },
+  {
+    "source": "SayaMuang/Zomi-language-data",
+    "revision": "a37d3154365a71725d29d2a786212531ad372303",
+    "file": "README.md",
+    "url": "https://huggingface.co/datasets/SayaMuang/Zomi-language-data/resolve/a37d3154365a71725d29d2a786212531ad372303/README.md",
+    "bytes": 24,
+    "sha256": "d8d7a46d41a1a37fe4f0a5f637bf55c649310185329127d8a2204632e480be17",
+    "status": "VERIFIED"
+  },
+  {
+    "source": "SayaMuang/Zomi-language-data",
+    "revision": "a37d3154365a71725d29d2a786212531ad372303",
+    "file": "zolai.json",
+    "url": "https://huggingface.co/datasets/SayaMuang/Zomi-language-data/resolve/a37d3154365a71725d29d2a786212531ad372303/zolai.json",
+    "bytes": 874,
+    "sha256": "0a04d459fc323d15d3bdd613d84a428e032f4f4206055b717dfcc8ec1271df2c",
+    "status": "VERIFIED"
+  },
+  {
+    "source": "zomi-language-corpora/raw-text-corpus",
+    "revision": "b03bb5552f3d272269bd78566747cdc874e992b5",
+    "file": "README.md",
+    "url": "https://huggingface.co/datasets/zomi-language-corpora/raw-text-corpus/resolve/b03bb5552f3d272269bd78566747cdc874e992b5/README.md",
+    "bytes": 4071,
+    "sha256": "7c99f918f378d752b7971bf27d8a0a889e6fa64c9adac5fcb05594349b606b0a",
+    "status": "VERIFIED"
+  },
+  {
+    "source": "zomi-language-corpora/raw-text-corpus",
+    "revision": "b03bb5552f3d272269bd78566747cdc874e992b5",
+    "file": "LICENSE",
+    "url": "https://huggingface.co/datasets/zomi-language-corpora/raw-text-corpus/resolve/b03bb5552f3d272269bd78566747cdc874e992b5/LICENSE",
+    "bytes": 12384,
+    "sha256": "c079e092fce8fec4904cfaca7cf54cef841ab7b5f5d2931aae480f079a48c435",
+    "status": "VERIFIED"
+  },
+  {
+    "source": "zomi-language-corpora/raw-text-corpus",
+    "revision": "b03bb5552f3d272269bd78566747cdc874e992b5",
+    "file": "index.json",
+    "url": "https://huggingface.co/datasets/zomi-language-corpora/raw-text-corpus/resolve/b03bb5552f3d272269bd78566747cdc874e992b5/index.json",
+    "bytes": 7125,
+    "sha256": "9e5e4ff7e2e95bed335b5c1b9b3d699f6b79b62005f0d777a168dec288d212c9",
+    "status": "VERIFIED"
+  }
+]

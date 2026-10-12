@@ -1,0 +1,39 @@
+{
+  "scope": "Pinned file audit for two datasets; metadata/index/license inspection only for raw-text-corpus",
+  "syllabified": {
+    "rows": 42476,
+    "columns": [
+      "last_syl",
+      "recommendation",
+      "is_ambiguous"
+    ],
+    "unique_normalized_last_syl": 1932,
+    "duplicate_last_syl_excess": 40544,
+    "empty_last_syl": 1824,
+    "nonempty_recommendation": 129,
+    "nonempty_is_ambiguous": 33,
+    "html_pattern_rows": 0,
+    "replacement_character_rows": 0,
+    "syllable_reconstruction": "NOT_TESTABLE: advertised word/syllables columns absent",
+    "native_linguistic_accuracy": "UNKNOWN",
+    "training_enabled": false
+  },
+  "translation": {
+    "rows": 6,
+    "columns": [
+      "\u1019\u103c\u1014\u103a\u1019\u102c",
+      "English",
+      "Zomi"
+    ],
+    "exact_duplicate_rows": 0,
+    "all_fields_nonempty": true,
+    "native_translation_accuracy": "UNKNOWN",
+    "training_enabled": false
+  },
+  "raw_text": {
+    "full_text_audit": "NOT_PERFORMED",
+    "decision": "REVIEW",
+    "training_enabled": false,
+    "distinct_indexed_file_paths": 28
+  }
+}

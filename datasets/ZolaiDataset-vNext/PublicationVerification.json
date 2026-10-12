@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "github_commit": "a48c1e88b4906091fead58c3cdc4df2a9fd5c8a3",
+  "github_pr": "https://github.com/Piangpi1997/zolai-gpt/pull/2",
+  "workflow_run": "https://github.com/Piangpi1997/zolai-gpt/actions/runs/37551300718",
+  "workflow_conclusion": "success",
+  "original_artifact_id": 11452034394,
+  "original_artifact_sha256": "858278310ce65c0f464ab486dedff9b87586118bae049f1d419b57311acb858d",
+  "original_archive_crc": "PASS",
+  "supplemental_changes": "Preserve public multilingual discovery metadata snapshot and clarify its reference; no candidate data, split, scores or training gate changed."
+}

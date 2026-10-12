@@ -1,0 +1,64 @@
+{
+  "status": "VERIFIED_COMMITTED_ALLOWLIST_ONLY",
+  "commit": "dfcdf4cd7e34b1629ea6a9fbc167249a3194a368",
+  "files": [
+    {
+      "path": "backend/datasets/raw/bibles/bjb_full_corpus.json",
+      "sha256_utf8": "c62e543d01b3f5dde8173ae4fe720506fa77594143a3eeb34dda9708888a0058",
+      "bytes": 21274933,
+      "text_records_examined": 30853
+    },
+    {
+      "path": "backend/datasets/raw/bibles/kjv_full_corpus.json",
+      "sha256_utf8": "fe10c0652995b89af9422c1e59d6367e0a13da816d21246367d03ebb8e54549d",
+      "bytes": 13885466,
+      "text_records_examined": 31102
+    },
+    {
+      "path": "backend/datasets/raw/bibles/master_usx_bible_corpus.json",
+      "sha256_utf8": "8c2bb77b25245dd148b13626cc010fd0d868c2207921299640884da032a3998c",
+      "bytes": 62223651,
+      "text_records_examined": 122844
+    },
+    {
+      "path": "backend/datasets/raw/bibles/tb77_full_corpus.json",
+      "sha256_utf8": "bba7728af8b2ca3b509d382cc453b7c80a6a7688ab9500320e288ec2704b914c",
+      "bytes": 13356757,
+      "text_records_examined": 30196
+    },
+    {
+      "path": "backend/datasets/raw/bibles/tdb_full_corpus.json",
+      "sha256_utf8": "8f68da4688c0f1e19f41d9e0ff0f2cc7a8353235cb50c8faed86e19ca6f487c7",
+      "bytes": 13706501,
+      "text_records_examined": 30693
+    },
+    {
+      "path": "backend/corpus/ZomiCorpusRepository.js",
+      "bytes": 1042,
+      "sha256": "bc7ec4ecbedb785f6f8be7aecfeffa0bff20b25f640278c9220b7ec2a0ad9dfa",
+      "text_records_examined": 2
+    },
+    {
+      "path": "backend/corpus/TranslationCorpusRepository.js",
+      "bytes": 24019,
+      "sha256": "6a379d980d9ef56092355f831aec1a8ebc2ce2e232719b930851fede7927f2ac",
+      "text_records_examined": 2
+    },
+    {
+      "path": "backend/corpus/SyllableRepository.js",
+      "bytes": 750,
+      "sha256": "e557149ee7aceb2c17e45a1c61c27007c45431fa50f3c11851dd5deaa633e478",
+      "text_records_examined": 4
+    },
+    {
+      "path": "app/src/main/assets/databases/tedim_bible_77.db",
+      "bytes": 11210752,
+      "sha256": "76513634349695254646a9eddf64e3810b0d7f3db6fb93362e5f0f2eddf03e54",
+      "text_records_examined": 30485
+    }
+  ],
+  "unique_exact_texts": 121857,
+  "unique_folded_texts": 120381,
+  "excluded": "SaaS users/profiles/payments/usage, secrets, local uncommitted files, deployed runtime stores; not examined and never exported.",
+  "limitations": "Only text/target_text/zomi/word fields and recognized Bible SQLite columns. Full deployed/private corpus novelty remains UNKNOWN."
+}

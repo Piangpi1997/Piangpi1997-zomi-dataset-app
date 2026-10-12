@@ -1,0 +1,98 @@
+{
+  "_id": "6a9072c81d5bb99a10bc25ae",
+  "id": "LianHong/zomi-monolingual-corpus",
+  "author": "LianHong",
+  "sha": "9c6bde579fcd0dc8f4e3b52a44d0632d8ac1cff8",
+  "lastModified": "2026-08-27T18:53:13.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-generation",
+    "language:ctd",
+    "license:cc-by-4.0",
+    "size_categories:100K<n<1M",
+    "format:csv",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "region:us",
+    "zomi",
+    "tedim-chin",
+    "monolingual-corpus",
+    "low-resource-language",
+    "text",
+    "nlp"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tZomi Monolingual Corpus v1.0\n\t\n\nThe Zomi Monolingual Corpus v1.0 contains 363,401 cleaned, deduplicated,\nreviewed, and permission-approved Zomi sentences. Zomi is represented with the\nISO 639-3 language code ctd (Tedim Chin).\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\ndataset = load_dataset(\"LianHong/zomi-monolingual-corpus\", split=\"train\")\nprint(dataset.num_rows)  # 363401\nprint(dataset[0][\"zomi_text\"])\n\n\n\t\n\t\t\n\t\n\t\n\t\tData fields\n\t\n\n\n\t\n\t\t\nField\nType\nDescription\u2026 See the full description on the dataset page: https://huggingface.co/datasets/LianHong/zomi-monolingual-corpus.",
+  "downloads": 70,
+  "likes": 0,
+  "cardData": {
+    "language": [
+      "ctd"
+    ],
+    "license": "cc-by-4.0",
+    "pretty_name": "Zomi Monolingual Corpus v1.0",
+    "size_categories": [
+      "100K<n<1M"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "tags": [
+      "zomi",
+      "tedim-chin",
+      "monolingual-corpus",
+      "low-resource-language",
+      "text",
+      "nlp"
+    ],
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/zomi_monolingual_corpus_v1.0.csv"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "ATTRIBUTION.md"
+    },
+    {
+      "rfilename": "CITATION.cff"
+    },
+    {
+      "rfilename": "DATA_CARD.md"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "PROJECT_CHECKPOINT.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "SHA256SUMS"
+    },
+    {
+      "rfilename": "data/zomi_monolingual_corpus_v1.0.csv"
+    },
+    {
+      "rfilename": "release_manifest.json"
+    }
+  ],
+  "createdAt": "2026-08-27T17:24:24.000Z",
+  "usedStorage": 214270813
+}

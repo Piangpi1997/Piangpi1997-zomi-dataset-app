@@ -1,0 +1,22 @@
+{
+  "status": "HUMAN_REVIEW_REQUIRED",
+  "training_enabled": false,
+  "approved_training_rows": 0,
+  "candidate_rows": 361348,
+  "release_enabled": false,
+  "conditions": [
+    "Qualified Tedim native review and spelling adjudication",
+    "Resolve contextual privacy and domain balance",
+    "Validate rights and any future added sources per file",
+    "Verify novelty against deployment/private runtime corpus",
+    "Review broader near/semantic duplicate leakage",
+    "Certify frozen task-specific test set",
+    "Recompute calibrated quality scores; production threshold >=0.8"
+  ],
+  "prohibited_actions": [
+    "model training",
+    "runtime corpus replacement",
+    "app/API deployment",
+    "user memory updates"
+  ]
+}

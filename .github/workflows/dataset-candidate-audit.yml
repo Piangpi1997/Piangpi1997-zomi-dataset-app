@@ -1,0 +1,53 @@
+name: Dataset candidate audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'datasets/ZolaiDataset-vNext/**'
+      - '.github/workflows/dataset-candidate-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test quarantine and split logic
+        run: python3 datasets/ZolaiDataset-vNext/scripts/test_pipeline.py
+      - name: Build pinned candidate without training
+        run: python3 datasets/ZolaiDataset-vNext/scripts/reproduce.py --baseline datasets/ZolaiDataset-vNext/baseline --output candidate-audit
+      - name: Include reports and license notices
+        run: |
+          python3 - <<'PY'
+          import pathlib,shutil
+          source=pathlib.Path('datasets/ZolaiDataset-vNext')
+          dest=pathlib.Path('candidate-audit/candidate')
+          for p in source.rglob('*'):
+              if not p.is_file() or '__pycache__' in p.parts: continue
+              rel=p.relative_to(source)
+              if rel.parts[0]=='baseline' or rel.as_posix() in ['QualityReport.json','SplitManifest.json','PackageVerification.json']: continue
+              out=dest/rel;out.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,out)
+          PY
+      - name: Verify all serialized records
+        run: |
+          python3 datasets/ZolaiDataset-vNext/scripts/verify_package.py --directory candidate-audit/candidate
+          python3 datasets/ZolaiDataset-vNext/scripts/review_sample.py --directory candidate-audit/candidate
+      - name: Freeze package checksums
+        run: |
+          python3 - <<'PY'
+          import pathlib,hashlib
+          root=pathlib.Path('candidate-audit/candidate')
+          files=sorted(p for p in root.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.name!='SHA256SUMS')
+          (root/'SHA256SUMS').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.relative_to(root).as_posix()+'\n' for p in files))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ZolaiDataset-vNext-candidate
+          path: candidate-audit/candidate/
+          retention-days: 30
+          if-no-files-found: error

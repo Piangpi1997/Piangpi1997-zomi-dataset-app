@@ -1,0 +1,161 @@
+{
+  "version": "ZolaiDataset-vNext-20261007-candidate.1",
+  "status": "HUMAN_REVIEW_REQUIRED; TRAINING_DISABLED",
+  "source_sha256": "7c84b835e45fdb26aef8822367dbc698988c5a28bdfd7d992cc50bed011353fd",
+  "measured_csv_bytes": 177717625,
+  "counts": {
+    "input_rows": 363401,
+    "near_pairs_checked": 2645,
+    "near_pairs_detected": 5,
+    "near_bucket_cap_skipped": 37
+  },
+  "retained_candidate_rows": 361348,
+  "excluded_rows": 2053,
+  "exclusion_reasons_multilabel": {
+    "fragment_or_abnormal_length": 1182,
+    "possible_english_review": 221,
+    "mixed_script_or_language_review": 5,
+    "possible_contact_or_sensitive_identifier": 342,
+    "embedded_link_review": 34,
+    "existing_committed_corpus_overlap": 144,
+    "punctuation_case_duplicate_review": 130,
+    "corrupt_or_control_text": 5,
+    "html_markup": 1,
+    "repetitive_spam_review": 15,
+    "spam_or_boilerplate_review": 2
+  },
+  "quality_flags_multilabel": {
+    "independent_native_review_unknown": 361348,
+    "spelling_standard_unknown": 361348,
+    "upstream_review_asserted_not_independently_repeated": 361348,
+    "myanmar_script_present": 71,
+    "near_duplicate_review": 5
+  },
+  "quality_score_distribution": {
+    "0.725": 361343,
+    "0.7": 5
+  },
+  "source_distribution": {
+    "Zomi Daily": 352563,
+    "Agape Digest Magazine": 8785
+  },
+  "topic_distribution": {
+    "Family": 15416,
+    "Religion": 56020,
+    "Other": 108487,
+    "Travel": 4524,
+    "Education": 25344,
+    "Community": 89976,
+    "History": 7515,
+    "Health": 9965,
+    "Politics": 30128,
+    "Culture": 9511,
+    "Conversation": 4462
+  },
+  "split_rows": {
+    "train": 292416,
+    "validation": 34558,
+    "test": 34374
+  },
+  "split_groups": {
+    "train": 10305,
+    "validation": 1244,
+    "test": 1246
+  },
+  "source_split_distribution": {
+    "train": {
+      "Zomi Daily": 285191,
+      "Agape Digest Magazine": 7225
+    },
+    "validation": {
+      "Zomi Daily": 33977,
+      "Agape Digest Magazine": 581
+    },
+    "test": {
+      "Zomi Daily": 33395,
+      "Agape Digest Magazine": 979
+    }
+  },
+  "split_policy": "80/10/10 hash buckets by source document plus connected duplicate groups; row ratios are measured, not forced.",
+  "split_leakage_tests": {
+    "exact_hash_overlap": 0,
+    "folded_hash_overlap": 0,
+    "document_component_overlap": 0
+  },
+  "baseline": {
+    "status": "VERIFIED_COMMITTED_ALLOWLIST_ONLY",
+    "commit": "dfcdf4cd7e34b1629ea6a9fbc167249a3194a368",
+    "files": [
+      {
+        "path": "backend/datasets/raw/bibles/bjb_full_corpus.json",
+        "sha256_utf8": "c62e543d01b3f5dde8173ae4fe720506fa77594143a3eeb34dda9708888a0058",
+        "bytes": 21274933,
+        "text_records_examined": 30853
+      },
+      {
+        "path": "backend/datasets/raw/bibles/kjv_full_corpus.json",
+        "sha256_utf8": "fe10c0652995b89af9422c1e59d6367e0a13da816d21246367d03ebb8e54549d",
+        "bytes": 13885466,
+        "text_records_examined": 31102
+      },
+      {
+        "path": "backend/datasets/raw/bibles/master_usx_bible_corpus.json",
+        "sha256_utf8": "8c2bb77b25245dd148b13626cc010fd0d868c2207921299640884da032a3998c",
+        "bytes": 62223651,
+        "text_records_examined": 122844
+      },
+      {
+        "path": "backend/datasets/raw/bibles/tb77_full_corpus.json",
+        "sha256_utf8": "bba7728af8b2ca3b509d382cc453b7c80a6a7688ab9500320e288ec2704b914c",
+        "bytes": 13356757,
+        "text_records_examined": 30196
+      },
+      {
+        "path": "backend/datasets/raw/bibles/tdb_full_corpus.json",
+        "sha256_utf8": "8f68da4688c0f1e19f41d9e0ff0f2cc7a8353235cb50c8faed86e19ca6f487c7",
+        "bytes": 13706501,
+        "text_records_examined": 30693
+      },
+      {
+        "path": "backend/corpus/ZomiCorpusRepository.js",
+        "bytes": 1042,
+        "sha256": "bc7ec4ecbedb785f6f8be7aecfeffa0bff20b25f640278c9220b7ec2a0ad9dfa",
+        "text_records_examined": 2
+      },
+      {
+        "path": "backend/corpus/TranslationCorpusRepository.js",
+        "bytes": 24019,
+        "sha256": "6a379d980d9ef56092355f831aec1a8ebc2ce2e232719b930851fede7927f2ac",
+        "text_records_examined": 2
+      },
+      {
+        "path": "backend/corpus/SyllableRepository.js",
+        "bytes": 750,
+        "sha256": "e557149ee7aceb2c17e45a1c61c27007c45431fa50f3c11851dd5deaa633e478",
+        "text_records_examined": 4
+      },
+      {
+        "path": "app/src/main/assets/databases/tedim_bible_77.db",
+        "bytes": 11210752,
+        "sha256": "76513634349695254646a9eddf64e3810b0d7f3db6fb93362e5f0f2eddf03e54",
+        "text_records_examined": 30485
+      }
+    ],
+    "unique_exact_texts": 121857,
+    "unique_folded_texts": 120381,
+    "excluded": "SaaS users/profiles/payments/usage, secrets, local uncommitted files, deployed runtime stores; not examined and never exported.",
+    "limitations": "Only text/target_text/zomi/word fields and recognized Bible SQLite columns. Full deployed/private corpus novelty remains UNKNOWN."
+  },
+  "baseline_overlap_rows": 144,
+  "language_identity": "Preserve source Zomi and ctd/Tedim labels, no independent native adjudication; no Zo/Zopau/Zolai relabeling.",
+  "limitations": [
+    "Quality scores are conservative heuristics, not independently validated language/spelling scores.",
+    "No native review was performed by this pipeline.",
+    "Upstream written permission is publicly asserted; private correspondence was not examined.",
+    "PII/spam/language regexes may miss sensitive information and may flag benign numbers. Named individuals and contextual privacy require human review.",
+    "Near duplicate search checks trigram Jaccard >= .9 only in shared first/last four-token buckets, capped 16 candidates. Unchecked near duplicates and paraphrases may remain.",
+    "No semantic or task-evaluation leakage verification; frozen test is provisional until native review.",
+    "Novelty is against committed allowlist only, not deployed/local runtime databases.",
+    "Monolingual corpus is not aligned translation supervision."
+  ]
+}

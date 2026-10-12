@@ -1,0 +1,17 @@
+{
+  "version": "ZolaiDataset-vNext-20261007-candidate.1",
+  "seed": "ZolaiDataset-vNext-20261007",
+  "policy": "80/10/10 hash buckets by source document plus connected duplicate groups; row ratios are measured, not forced.",
+  "counts": {
+    "train": 292416,
+    "validation": 34558,
+    "test": 34374
+  },
+  "groups": {
+    "train": 10305,
+    "validation": 1244,
+    "test": 1246
+  },
+  "test_status": "PROVISIONAL_FROZEN_FILE_HASH; NOT_CERTIFIED_EVALUATION_SET",
+  "training_enabled": false
+}
